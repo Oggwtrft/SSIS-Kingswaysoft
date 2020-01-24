@@ -1,5 +1,5 @@
-# SSIS-Kingswaysoft
-Package examples SSIS Kingswaysoft for data migration
+# SSIS-Kingswaysoft for Dynamics CE
+Package examples SSIS Kingswaysoft for data migration --> D365 CE
 
 ###### The main thing, that should be done is: Target System should have only core for migration users, business unit, transaction currency, etc. The less the better, to avoid using text lookups while migration.
 **Always map createdon field on overriddencreatedon. And all records with new GUID using text-lookup feature.**
